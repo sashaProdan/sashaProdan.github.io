@@ -1,0 +1,181 @@
+body, nav {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  text-align: right;
+  width: 100%;
+}
+
+h1 {
+  margin: 0 0 0 5%;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  border-right: 1px solid #4c5364;
+  text-transform: uppercase;
+  font-size: 75%;
+}
+
+nav a {
+  color: #4c5364;
+}
+
+nav ul li:last-child {
+  border: none;
+}
+
+article {
+  padding: 2% 0 2% 2%;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.narrow {
+  width: 40%;
+  margin: 0 10px 0 0;
+}
+
+.wide {
+  width: 57%;
+}
+
+.light-link {
+  border-bottom: 2px solid #fafafa;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dark-link {
+  border-bottom: 2px solid #141C59;
+  color: #141C59;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dark-button {
+  color: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 120%;
+}
+
+.dark-button:hover {
+  background-color: #fafafa;
+  color: #141C59;
+}
+
+#intro {
+  padding: 8% 5% 3%;
+  color: #4c5364;
+  background-image: url("images/san-fran.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-weight: 500;
+}
+
+#intro h2 {
+  font-size: 130%;
+  font-weight: bold;
+  margin: 0 0 5% 0;
+}
+
+#intro article:first-child {
+  margin: 0 10px 0 0;
+}
+
+#intro article:first-child img {
+  display: block;
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 60%;
+}
+
+#chronos {
+  background-color: #141C59;
+  color: #fafafa;
+}
+
+#chronos article:last-child img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 20px 0 0 50px;
+  border-top: 20px solid #ccc;
+  border-radius: 2%;
+}
+
+#chronos img {
+  max-width: 60%;
+  display: inline-block;
+  margin: 20px 0 30px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 90%;
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+}
+
+#chronos h3 {
+  border-bottom: 1px solid #fafafa;
+}
+
+#chronos .dark-button {
+  display: inline-block;
+  margin: 30px 20% 0;
+}
+
+#other-projects h3 {
+  border-bottom: 0.5px solid #141C59;
+  color: #141C59;
+}
+
+h4 {
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.project ul li {
+  display: inline-block;
+  border: 1px solid #141C59;
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin: 0 5px 0 0;
+  font-size: 70%;
+  color: #141C59;
+  font-weight: bold;
+}
