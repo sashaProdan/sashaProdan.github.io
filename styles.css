@@ -1,4 +1,4 @@
-body, nav {
+body, header {
   background-color: #fafafa;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
@@ -75,34 +75,35 @@ h1 {
   font-weight: bold;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
   top: 0;
   right: 0;
-  padding: 15px 65px 10px 20px;
-  text-align: right;
+  padding: 15px 70px 10px 20px;
   width: 100%;
 }
 
-nav h1 {
+header h1 {
   margin: 0.8% 0 0 4%;
 }
 
-nav ul {
-  width: 50%;
-}
-
-nav ul li {
+nav a {
   display: inline-block;
-  width: 8%;
+  margin: 0 10px 0 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
 }
 
-.flex {
-  display: flex;
-}
+.github { background-image: url("images/icons/github.png"); }
+.linkedin { background-image: url("images/icons/linkedin.png"); }
+.medium { background-image: url("images/icons/medium.png"); }
+.email { background-image: url("images/icons/email.png");}
+
+.flex { display: flex; }
 
 section {
   padding: 5%;
@@ -206,4 +207,8 @@ h4 {
   font-size: 70%;
   color: #141C59;
   font-weight: bold;
+}
+
+#about-me {
+  padding-right: 15%;
 }
