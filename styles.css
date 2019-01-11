@@ -180,6 +180,7 @@ h3 {
 h4 {
   font-weight: bold;
   margin: 0 0 20px 0;
+  font-size: 110%;
 }
 
 .project {
@@ -209,7 +210,7 @@ h4 {
   header { padding: 15px 0;}
   nav { margin: 0 auto; }
 
-  #intro { padding: 10% 5% 4%; }
+  #intro { padding: 15% 5% 4%; }
 
   #intro article:first-child,
   header h1 {
@@ -230,9 +231,17 @@ h4 {
     width: 80%;
     margin: 15px auto 0;
   }
-
+  
+  #intro p,
   #chronos p,
   #about-me p {
+    font-size: 90%;
+  }
+
+  .project p { font-size: 100%;}
+
+  .light-button,
+  .dark-button {
     font-size: 90%;
   }
 }
