@@ -13,6 +13,12 @@ body, header {
   font-weight: bold;
 }
 
+.light-link:hover,
+.dark-link:hover {
+  color: #4c5364;
+  border-bottom: 2px solid #4c5364;
+}
+
 .dark-link {
   border-bottom: 2px solid #141C59;
   color: #141C59;
@@ -31,6 +37,7 @@ body, header {
 .light-button:hover {
   background-color: #fafafa;
   color: #141C59;
+  font-weight: bold;
 }
 
 .dark-button {
@@ -45,6 +52,7 @@ body, header {
   background-color: #fafafa;
   border: 1px solid #141C59;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 .light-button,
@@ -185,11 +193,11 @@ h4 {
 }
 
 .project {
-  font-size: 70%;
+  font-size: 80%;
 }
 
 .project ul {
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .project ul li {
@@ -203,13 +211,28 @@ h4 {
   font-weight: bold;
 }
 
-#about-me {
-  padding-right: 15%;
-}
-
 #about-me h1 {
   padding: 0 0 10px 0;
   margin: 0 0 15px 0;
+}
+
+.info {
+  text-align: center;
+}
+.info h2 {
+  font-size: 130%;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 0 20px 0;
+}
+
+.info p:first-of-type {
+  margin: 0 0 10% 0;
+}
+
+.info a {
+  color: #fafafa;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
@@ -255,10 +278,6 @@ h4 {
     font-size: 90%;
   }
 
-  #about-me {
-    padding-right: 5%;
-  }
-
   #about-me h1 {
     text-align: center;
   }
@@ -266,7 +285,7 @@ h4 {
   #about-me .light-button {
     display: block;
     width: 25%;
-    margin: 20px auto 0;
+    margin: 30px auto 20px;
     text-align: center;
   }
 }
