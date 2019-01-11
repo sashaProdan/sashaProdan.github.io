@@ -216,11 +216,15 @@ h4 {
   header { padding: 15px 0;}
   nav { margin: 0 auto; }
 
-  #intro { padding: 15% 5% 4%; }
+  #intro { padding: 20% 5% 4%; }
 
   #intro article:first-child,
   header h1 {
     display: none;
+  }
+
+  #intro .dark-button {
+    margin: 20px 0 0 0;
   }
 
   .flex { display: block;}
