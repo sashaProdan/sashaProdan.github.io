@@ -31,7 +31,6 @@ body, header {
   background-color: #fafafa;
   border-radius: 2px;
   padding: 15px 20px;
-  font-size: 110%;
   font-weight: bold;
 }
 
@@ -42,18 +41,15 @@ body, header {
 }
 
 .dark-button {
-  color: #fafafa;
-  background-color: #141C59;
+  color: #141C59;
+  border: 1px solid #141C59;
   border-radius: 2px;
-  padding: 12px 22px;
+  padding: 10px 20px;
 }
 
 .dark-button:hover {
-  color: #141C59;
-  background-color: #fafafa;
-  border: 1px solid #141C59;
-  border-radius: 4px;
-  font-weight: bold;
+  color: #4c5364;
+  border: 1px solid #4c5364;
 }
 
 .light-button,
@@ -226,11 +222,11 @@ h4 {
   font-size: 130%;
   font-weight: bold;
   font-style: italic;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 
 .info p:first-of-type {
-  margin: 0 0 10% 0;
+  margin: 0 0 7% 0;
 }
 
 .info a {
@@ -258,7 +254,6 @@ h4 {
   #chronos .light-button,
   #about-me .light-button {
     display: block;
-    width: 40%;
     margin: 5% auto 0;
     text-align: center;
   }
@@ -280,6 +275,8 @@ h4 {
   .light-button,
   .dark-button {
     font-size: 90%;
+    width: 40%;
+    padding: 15px;
   }
 
   #about-me h1 {
@@ -287,7 +284,7 @@ h4 {
   }
 
   #about-me .light-button {
-    margin: 30px auto 20px;
+    margin: 30px auto 10px;
   }
 
   .info h2 { font-size: 100%;}
