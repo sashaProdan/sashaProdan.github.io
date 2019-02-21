@@ -101,6 +101,7 @@ nav a {
 .linkedin { background-image: url("images/icons/linkedin.png"); }
 .medium { background-image: url("images/icons/medium.png"); }
 .email { background-image: url("images/icons/email.png");}
+.resume { background-image: url("images/icons/resume.png");}
 
 .flex { display: flex; }
 
